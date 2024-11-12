@@ -229,5 +229,5 @@ def clustering_guide():
     return jsonify(guide)
     
 
-if name == '__main__':
+if __name__ == '__main__':
     app.run(debug=True)
